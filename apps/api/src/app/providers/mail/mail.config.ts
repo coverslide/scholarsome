@@ -17,7 +17,7 @@ export class MailConfig implements MailerOptionsFactory {
         }
       },
       defaults: {
-        from: "Scholarsome <noreply@scholarsome.com>"
+        from: this.configService.get<string>("SMTP_FROM") || "Scholarsome <noreply@scholarsome.com>"
       }
     };
   }

@@ -21,6 +21,7 @@ export const envSchema = joi.object().keys({
   SMTP_PORT: joi.string().allow(null, "").optional(),
   SMTP_USERNAME: joi.string().allow(null, "").optional(),
   SMTP_PASSWORD: joi.string().allow(null, "").optional(),
+  SMTP_FROM: joi.string().allow(null, "").optional(),
   SSL_KEY_BASE64: joi.string().allow(null, "").optional(),
   SSL_CERT_BASE64: joi.string().allow(null, "").optional(),
   SCHOLARSOME_RECAPTCHA_SITE: joi.string().allow(null, "").optional(),

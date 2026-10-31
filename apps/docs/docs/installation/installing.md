@@ -91,6 +91,7 @@ Development mode is to be used if you are contributing to Scholarsome's developm
 | SMTP_PORT                       | Port to access the SMTP server.                                                                                                                                            |
 | SMTP_USERNAME                   | Username to access the SMTP server.                                                                                                                                        |
 | SMTP_PASSWORD                   | Password to access the SMTP server.                                                                                                                                        |
+| SMTP_FROM                       | Optional sender address or formatted sender (e.g. `Scholarsome <noreply@scholarsome.com>`). Defaults to `noreply@scholarsome.com`.                                         |
 | SSL_KEY_BASE64                  | Base64 encoded SSL public key.                                                                                                                                             |
 | SSL_CERT_BASE64                 | Base64 encoded SSL certificate.                                                                                                                                            |
 | SCHOLARSOME_RECAPTCHA_SITE      | reCAPTCHA site key.                                                                                                                                                        |
@@ -176,6 +177,7 @@ Development mode is to be used if you are contributing to Scholarsome's developm
 | SMTP_PORT                       | Port to access the SMTP server.                                                                                                                                            |
 | SMTP_USERNAME                   | Username to access the SMTP server.                                                                                                                                        |
 | SMTP_PASSWORD                   | Password to access the SMTP server.                                                                                                                                        |
+| SMTP_FROM                       | Optional sender address or formatted sender (e.g. `Scholarsome <noreply@scholarsome.com>`). Defaults to `noreply@scholarsome.com`.                                         |
 | SSL_KEY_BASE64                  | Base64 encoded SSL public key.                                                                                                                                             |
 | SSL_CERT_BASE64                 | Base64 encoded SSL certificate.                                                                                                                                            |
 | SCHOLARSOME_RECAPTCHA_SITE      | reCAPTCHA site key.                                                                                                                                                        |
